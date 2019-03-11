@@ -1,10 +1,21 @@
+/**
+ * Rochambo Game
+ * Author: Marco Corsini
+ * Assignment 2
+ * Date: march 11, 2019
+ * Contents provided by David Burchill
+ * Added Serializable
+ */
+
+
 package android.example.com.roshambo;
 
 import android.os.Build;
 
+import java.io.Serializable;
 import java.util.Random;
 
-public class Rochambo {
+public class Rochambo implements Serializable {
 
     public static final int ROCK = 0;
     public static final int PAPER = 1;
